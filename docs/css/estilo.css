@@ -1,0 +1,271 @@
+/*estilos universal*/
+    {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*estilos para el cuerpo de mi pagina*/
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(155, 33, 166, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+/*estilos para mi pagina*/
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+section h2 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*esrilos del contenedor  de tarjetas*/
+.card {
+    background-color: rgb(22, 203, 243);
+    color: white;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+/*estilos para mi imagen*/
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    filter: grayscale(100%);
+}
+
+/*estilos para mi video de youtube*/
+.card iframe {
+    width: 100%;
+}
+
+/*estilos para mi video local*/
+.card video {
+    width: 100%;
+}
+
+/*estilos para mi audios esconde los controles del audios*/
+section audio {
+    display: ;
+}
+
+/*aplica estilos balmco y negro*/
+.card img:hover {
+    filter: grayscale(0);
+}
+
+/*titluo de la tarjeta*/
+.titulo {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*estilo  para mi parrafo*/
+.parrafo {
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*estilo para crear un botton con etiqueta A*/
+.btn {
+    display: block;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+/*contenedor flex*/
+.contenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*TABLAS*/
+table {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 5px black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+    box-shadow: 3px 3px 4px #ddd;
+}
+
+table thead {
+    background-color: black;
+    color: white;
+
+}
+
+table caption {
+    background-color: yellowgreen;
+    color: beige;
+    font-size: 25px;
+    padding: 20px;
+
+}
+
+table tr th,
+table tr td {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: grey;
+}
+
+table td:nth-child(6) {
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: aqua;
+}
+
+.table {
+    background-color: blueviolet;
+    padding: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    border: solid 5px red;
+}
+
+.table tr:hover {
+    background-color: black;
+    color: white;
+}
+
+.table thead {
+    background-color: blue;
+}
+
+.tab {
+    background-color: rgb(226, 226, 43);
+    padding: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    border: solid 5px rgb(4, 0, 255);
+}
+
+.tab tr:hover {
+    background-color: rgb(27, 11, 48);
+    color: white;
+}
+
+.tab thead {
+    background-color: orange;
+}
+
+.contenido {
+    background-color: #ddd;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.lista {
+    padding: 50px;
+    list-style: georgian;
+}
+
+.lista2 {
+    list-style: none;
+    font-size: xx-large;
+
+}
+
+._contenedorform {
+    background-color: white;
+    width: 60%;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 10px 10px 10px blue;
+
+
+}
+
+._contenedorform h3 {
+    padding: 15px;
+    text-align: center;
+    font-size: xx-large;
+    color: blue;
+}
+
+.linea {
+    border: 2px solid #ddd;
+    border-style: dotted;
+}
+
+._input label {
+    display: block;
+}
+
+._input input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.bton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.colorazul {
+    background-color: blue;
+    color: white;
+}
+
+.twitter {
+    background-color: magenta;
+    color: white;
+}
+
+
+footer {
+    padding: 200px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}

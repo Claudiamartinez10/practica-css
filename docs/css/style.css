@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    color: azure;
+}
+
+main {
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*BOX MODEL EN PARRAFO*/
+.parrafo {
+    text-align: justify;
+    /*acceso directo 
+    arriba, derecha, abajo, izquierda*/
+    padding: 20px;
+
+    /*padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 4px;
+        padding-left: 5px;*/
+
+
+    /*acceso directo 
+     tamaño, tipo del border, color del border*/
+    /*border: 5px solid rgba(159, 18, 18, 0.481);*/
+
+    /*acceso directo 
+    arriba, derecha, abajo, izquierda*/
+    border-width: 20px 5px 10px 30px;
+
+    /*border-top-width: 5px;
+    border-right-width: 30px;
+    border-bottom-width: 20px;
+    border-left-width: 0px;*/
+
+
+    border-style: dashed groove solid double;
+    /*border-top-style: groove;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-left-style: dotted;*/
+    border-color: blueviolet yellow blue black;
+
+    /*border-top-color: aqua;
+    border-bottom-color: brown;
+    border-right-color: blue;
+    border-left-color: yellow;*/
+
+    margin: 20px 40px 10px 10px;
+}
+
+div {
+    background-color: rgb(255, 89, 0);
+    width: 70%;
+    margin: 0 auto;
+    border: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: magenta;
+}
+
+p {
+    text-align: center;
+    background-color: yellowgreen;
+    color: black;
+
+
+
+}
+
+p img {
+    margin: 0 auto;
+    padding: 0;
+    width: 150px;
+    border-style: dashed;
+    border-width: 5px;
+    display: block;
+
+}
